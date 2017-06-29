@@ -104,6 +104,7 @@ header p{
 	text-indent: 1em;
 	margin-left: 0.7rem;
 	outline: none;
+	-webkit-appearance:none;
 }
 .main1 form input:nth-child(2){
 	margin-top: 1.0rem;
