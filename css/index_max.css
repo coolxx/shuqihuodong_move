@@ -157,6 +157,7 @@ header p{
 	color: #d72c00;
 	text-align: center;
 	line-height: 42px;
+	height: 42px;
 	background: url(../image/star.png) no-repeat center;
 	margin-top: 59px;
 }
