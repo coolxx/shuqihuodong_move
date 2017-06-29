@@ -47,7 +47,7 @@ header p{
 .banner p{
 	font-size: 0.6rem;
 	color: #000;
-	line-height: 1.075rem;
+	line-height: 1.125rem;
 	margin-left: 5.6rem;
 	margin-top: 13.1rem;
 }
@@ -156,12 +156,9 @@ header p{
 	overflow: hidden;
 }
 .main2 h1{
-	font-size: 1.05rem;
-	color: #d72c00;
-	text-align: center;
-	line-height: 1.05rem;
+	height: 1.05rem;
 	background: url(../image/star.png) no-repeat center;
-	background-size: 7.175rem 1.0rem;
+	background-size: 7.175rem 1.05rem;
 	margin-top: 1.475rem;
 }
 .main2 p{

@@ -46,7 +46,7 @@ header p{
 .banner p{
 	font-size: 24px;
 	color: #000;
-	line-height: 43px;
+	line-height: 45px;
 	margin-left: 224px;
 	margin-top: 524px;
 }
@@ -153,10 +153,6 @@ header p{
 	overflow: hidden;
 }
 .main2 h1{
-	font-size: 42px;
-	color: #d72c00;
-	text-align: center;
-	line-height: 42px;
 	height: 42px;
 	background: url(../image/star.png) no-repeat center;
 	margin-top: 59px;
