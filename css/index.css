@@ -187,18 +187,18 @@ header p{
 }
 .img_box img:nth-child(3){
 	float: left;
-	margin-top: 11px;
+	margin-top: 0.275rem;
 	width: 5.65rem
 }
 .img_box img:nth-child(4){
 	float: left;
-	margin-top: 11px;
-	margin-left: 11px;
+	margin-top: 0.275rem;
+	margin-left: 0.275rem;
 	width: 5.65rem
 }
 .img_box img:nth-child(5){
 	float: right;
-	margin-top: 11px;
+	margin-top: 0.275rem;
 	width: 5.65rem
 }
 .foot{
