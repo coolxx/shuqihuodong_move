@@ -1,0 +1,246 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑" !important;}
+body,html{
+	width: 720px;
+	margin: 0 auto;
+	background: #f7ecde;
+}
+li{ list-style:none; }
+a{ text-decoration:none; }
+img{ vertical-align:top; }
+header{
+	width: 720px;
+	height: 50px;
+	overflow: hidden;
+	background: #1b1b1b;
+}
+header img{
+	float: left;
+	margin-top: 4px;
+	margin-left: 10px;
+	width: 79px;
+}
+header h1{
+	color: #fff;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+header p{
+	font-size: 15px;
+	height: 100%;
+	padding-left: 35px;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-right: 8px;
+	line-height: 50px;
+	background: url(../image/phone.png) no-repeat 0 center;
+}
+.banner{
+	width: 720px;
+	height: 793px;
+	background: url(../image/banner.png) no-repeat center;
+	overflow: hidden;
+}
+.banner p{
+	font-size: 24px;
+	color: #000;
+	line-height: 43px;
+	margin-left: 224px;
+	margin-top: 522px;
+}
+.main1{
+	width: 700px;
+	height: 794px;
+	background: #fff;
+	border-radius: 35px;
+	margin-left: 10px;
+	position: relative;
+}
+.main1 > h1{
+	width: 652px;
+	font-size: 46px;
+	color: #ff2c2c;
+	line-height: 46px;
+	text-align: center;
+	padding: 62px 0 27px;
+	border-bottom: 2px solid #f7ecde;
+	margin-left: 26px
+}
+.m1_p{
+	width: 700px;
+	height: 244px;
+	background: #d72c00;
+	margin-top: 16px;
+	overflow: hidden;
+}
+.m1_p p{
+	font-size: 27px;
+	color: #fff;
+	padding-left: 80px;
+	margin-top: 23px;
+	line-height: 27px;
+}
+.m1_p p:nth-child(1){
+	margin-top: 32px;
+}
+.m1_p p span{
+	color: #fff32c;
+	font-weight: bolder;
+}
+.main1 form{
+	margin-top: 46px;
+	overflow: hidden;
+}
+.main1 form input{
+	width: 642px;
+	height: 64px;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	display: block;
+	font-size: 25px;
+	text-indent: 1em;
+	margin-left: 28px;
+	outline: none;
+}
+.main1 form input:nth-child(2){
+	margin-top: 40px;
+}
+.main1 form input:nth-child(3){
+	margin-top: 50px;
+	background: #d72c00;
+	text-align: center;
+	line-height: 64px;
+	font-size: 27px;
+	color: #fff;
+	border: none;
+}
+.tankuang{
+	width: 525px;
+	height: 242px;
+	background: rgba(0,0,0,0.7);
+	border-radius: 20px;
+	position: absolute;
+	left: 88px;
+	top: 390px;
+	overflow: hidden;
+	display: none;
+}
+.tankuang img{
+	float: right;
+	margin: 13px 19px 0 0;
+}
+.tankuang h1{
+	font-size: 38px;
+	color: #fff32c;
+	text-align: center;
+	line-height: 38px;
+	margin-top: 64px;
+}
+.tankuang p{
+	font-size: 24px;
+	line-height: 24px;
+	text-align: center;
+	margin-top: 47px;
+	color: #cb3818
+}
+.main2{
+	width: 720px;
+	height: 684px;
+	background: #fff;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.main2 h1{
+	font-size: 42px;
+	color: #d72c00;
+	text-align: center;
+	line-height: 42px;
+	background: url(../image/star.png) no-repeat center;
+	margin-top: 59px;
+}
+.main2 p{
+	font-size: 42px;
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+	line-height: 42px;
+	margin-top: 20px;
+}
+.img_box{
+	overflow: hidden;
+	margin-top: 35px;
+	width: 700px;
+	margin-left: 10px;
+}
+.img_box img:nth-child(1){
+	float: left;
+}
+.img_box img:nth-child(2){
+	float: right
+}
+.img_box img:nth-child(3){
+	float: left;
+	margin-top: 11px
+}
+.img_box img:nth-child(4){
+	float: left;
+	margin-top: 11px;
+	margin-left: 11px;
+}
+.img_box img:nth-child(5){
+	float: right;
+	margin-top: 11px
+}
+.foot{
+	width: 720px;
+	height: 68px;
+	background: #1b1b1b;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	z-index: 99999;
+}
+.foot .tel{
+	float: left;
+	font-size: 24px;
+	height: 100%;
+	line-height: 68px;
+	margin-left: 40px;
+	color: #fff;
+}
+.foot .tel span{
+	color: #e60012;
+}
+.foot .QQ_ask{
+	float: right;
+	height: 68px;
+	line-height: 68px;
+	color: #fff;
+	font-size: 24px;
+	margin-right: 40px;
+}
+.bdsharebuttonbox{
+	overflow: hidden;
+	float: right;
+	width: 100px!important;
+	height: 68px!important;
+	
+}
+.bdsharebuttonbox > a{
+	font-size: 24px!important;
+	color: #fff!important;
+	width: 55px!important;
+	height: 68px!important;
+	display: block!important;
+	line-height: 68px!important;
+	padding: 0!important;
+
+}
+.bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more{
+	background-image: none!important;
+}
+.ft{
+	height: 88px;
+}

@@ -1,0 +1,251 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑" !important;}
+html{font-size: 20px;}
+body{background: #f7ecde;}
+li{ list-style:none; }
+a{ text-decoration:none; }
+img{ vertical-align:top; }
+header{
+	width: 18.0rem;
+	height: 1.25rem;
+	overflow: hidden;
+	background: #1b1b1b;
+}
+header img{
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.25rem;
+	width: 1.975rem;
+}
+header h1{
+	color: #fff;
+	float: left;
+	margin-top: 0.5rem;
+	margin-left: 0.25rem;
+	font-size: 0.45rem;
+	font-weight: bold;
+}
+header p{	
+	font-size: 0.45rem;
+	height: 100%;
+	padding-left: 0.875rem;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-right: 0.2rem;
+	line-height: 1.25rem;
+	background: url(../image/phone.png) no-repeat 0 center;
+	background-size: 0.55rem 0.65rem;
+	padding-top: 0.125rem
+}
+.banner{
+	width: 18.0rem;
+	height: 19.825rem;
+	background: url(../image/banner.png) no-repeat center;
+	background-size: 18.0rem 19.825rem;
+	overflow: hidden;
+}
+.banner p{
+	font-size: 0.6rem;
+	color: #000;
+	line-height: 1.075rem;
+	margin-left: 5.6rem;
+	margin-top: 13.05rem;
+}
+.main1{
+	width: 17.5rem;
+	height: 19.85rem;
+	background: #fff;
+	border-radius: 0.875rem;
+	margin-left: 0.25rem;
+	position: relative;
+}
+.main1 > h1{
+	width: 16.3rem;
+	font-size: 1.15rem;
+	color: #ff2c2c;
+	line-height: 1.15rem;
+	text-align: center;
+	padding: 1.55rem 0 0.675rem;
+	border-bottom: 2px solid #f7ecde;
+	margin-left: 0.65rem
+}
+.m1_p{
+	width: 17.5rem;
+	height: 6.1rem;
+	background: #d72c00;
+	margin-top: 0.4rem;
+	overflow: hidden;
+}
+.m1_p p{
+	font-size: 0.675rem;
+	color: #fff;
+	padding-left: 2.0rem;
+	margin-top: 0.575rem;
+	line-height: 0.675rem;
+}
+.m1_p p:nth-child(1){
+	margin-top: 0.8rem;
+}
+.m1_p p span{
+	color: #fff32c;
+	font-weight: bolder;
+}
+.main1 form{
+	margin-top: 1.15rem;
+	overflow: hidden;
+}
+.main1 form input{
+	width: 16.05rem;
+	height: 1.6rem;
+	border: 1px solid #bdbdbd;
+	border-radius: 0.125rem;
+	display: block;
+	font-size: 0.625rem;
+	text-indent: 1em;
+	margin-left: 0.7rem;
+	outline: none;
+}
+.main1 form input:nth-child(2){
+	margin-top: 1.0rem;
+}
+.main1 form input:nth-child(3){
+	margin-top: 1.25rem;
+	background: #d72c00;
+	text-align: center;
+	line-height: 1.6rem;
+	font-size: 0.675rem;
+	color: #fff;
+	border: none;
+}
+.tankuang{
+	width: 13.125rem;
+	height: 6.05rem;
+	background: rgba(0,0,0,0.7);
+	border-radius: 0.5rem;
+	position: absolute;
+	left: 2.2rem;
+	top: 9.75rem;
+	overflow: hidden;
+	display: none;
+}
+.tankuang img{
+	float: right;
+	margin: 0.325rem 0.475rem 0 0;
+	width: 0.4rem;
+}
+.tankuang h1{
+	font-size: 0.95rem;
+	color: #fff32c;
+	text-align: center;
+	line-height: 0.95rem;
+	margin-top: 1.6rem;
+}
+.tankuang p{
+	font-size: 0.6rem;
+	line-height: 0.6rem;
+	text-align: center;
+	margin-top: 1.175rem;
+	color: #cb3818
+}
+.main2{
+	width: 18.0rem;
+	height: 17.1rem;
+	background: #fff;
+	margin-top: 0.75rem;
+	overflow: hidden;
+}
+.main2 h1{
+	font-size: 1.05rem;
+	color: #d72c00;
+	text-align: center;
+	line-height: 1.05rem;
+	background: url(../image/star.png) no-repeat center;
+	margin-top: 1.475rem;
+}
+.main2 p{
+	font-size: 1.05rem;
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+	line-height: 1.05rem;
+	margin-top: 0.5rem;
+}
+.img_box{
+	overflow: hidden;
+	margin-top: 0.875rem;
+	width: 17.5rem;
+	margin-left: 0.25rem;
+}
+.img_box img:nth-child(1){
+	float: left;
+	width: 9.625rem
+}
+.img_box img:nth-child(2){
+	float: right;
+	width: 7.625rem
+}
+.img_box img:nth-child(3){
+	float: left;
+	margin-top: 11px;
+	width: 5.65rem
+}
+.img_box img:nth-child(4){
+	float: left;
+	margin-top: 11px;
+	margin-left: 11px;
+	width: 5.65rem
+}
+.img_box img:nth-child(5){
+	float: right;
+	margin-top: 11px;
+	width: 5.65rem
+}
+.foot{
+	width: 18.0rem;
+	height: 1.7rem;
+	background: #1b1b1b;
+	position: fixed;
+	bottom: 0;
+	z-index: 9999999999;
+}
+.foot .tel{
+	float: left;
+	font-size: 0.6rem;
+	height: 100%;
+	line-height: 1.7rem;
+	margin-left: 1.0rem;
+	color: #fff;
+}
+.foot .tel span{
+	color: #e60012;
+}
+.foot .QQ_ask{
+	float: right;
+	height: 1.7rem;
+	line-height: 1.7rem;
+	color: #fff;
+	font-size: 0.6rem;
+	margin-right: 1.0rem;
+}
+.bdsharebuttonbox{
+	overflow: hidden;
+	float: right;
+	width: 2.5rem!important;
+	height: 1.7rem!important;
+	
+}
+.bdsharebuttonbox > a{
+	font-size: 0.6rem!important;
+	color: #fff!important;
+	width: 1.375rem!important;
+	height: 1.7rem!important;
+	display: block!important;
+	line-height: 1.7rem!important;
+	padding: 0!important;
+}
+.bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more{
+	background-image: none!important;
+}
+.ft{
+	height: 2.2rem;
+}
