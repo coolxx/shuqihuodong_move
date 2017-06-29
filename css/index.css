@@ -49,7 +49,7 @@ header p{
 	color: #000;
 	line-height: 1.075rem;
 	margin-left: 5.6rem;
-	margin-top: 13.05rem;
+	margin-top: 13.1rem;
 }
 .main1{
 	width: 17.5rem;
@@ -98,7 +98,7 @@ header p{
 	width: 16.05rem;
 	height: 1.6rem;
 	border: 1px solid #bdbdbd;
-	border-radius: 0.125rem;
+	border-radius: 5px;
 	display: block;
 	font-size: 0.625rem;
 	text-indent: 1em;
@@ -160,6 +160,7 @@ header p{
 	text-align: center;
 	line-height: 1.05rem;
 	background: url(../image/star.png) no-repeat center;
+	background-size: 7.175rem 1.0rem;
 	margin-top: 1.475rem;
 }
 .main2 p{
