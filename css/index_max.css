@@ -43,13 +43,6 @@ header p{
 	background: url(../image/banner.png) no-repeat center;
 	overflow: hidden;
 }
-.banner p{
-	font-size: 26px;
-	color: #f77008;
-	line-height: 52px;
-	margin-left: 224px;
-	margin-top: 512px;
-}
 .main1{
 	width: 700px;
 	height: 794px;
